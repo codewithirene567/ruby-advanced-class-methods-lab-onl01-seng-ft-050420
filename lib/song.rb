@@ -46,7 +46,7 @@ class Song
   #artist data must be separated with a -
   #remove .mp3
 
-  def self.create_from_filename
+  def self.create_from_filename(file_format)
     song = self.new_from_filename(file_format)
     song.save
   end
