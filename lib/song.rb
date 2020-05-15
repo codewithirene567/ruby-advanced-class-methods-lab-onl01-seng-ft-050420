@@ -32,6 +32,7 @@ class Song
   def self.new_from_filename(file_format)
     names_array = file_format.split(" - ")
     song_name = names_array[1] #create a new variable that holds the song name
+    song_name.gsub!(".mp3", "") #replace mp3 with an empty string
     artist_name = names_array[0] #create a new variable that holds the aritst name
     new_song = self.new_by_name(song_name)
     new_song.artist_name = artist_name
