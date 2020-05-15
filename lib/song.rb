@@ -35,6 +35,12 @@ class Song
     artist_name = Taylor Swift
     song
   end
+  #return song instance
+  #song name set to blank Space
+  #aritst_name set to Taylor Swift
+  #file name input must be parsed for the relevant components
+  #artist data must be separated with a -
+  #remove .mp3
 
   def self.create_from_filename
     self.new_from_filename(file_format)
