@@ -31,7 +31,7 @@ class Song
     
   def self.new_from_filename(file_format)
     new_song = self.new_by_name(name)
-    file_format.split(" - ")
+    names_array = file_format.split(" - ")
     song
   end
   #return song instance
