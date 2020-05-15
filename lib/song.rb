@@ -47,7 +47,7 @@ class Song
   #remove .mp3
 
   def self.create_from_filename
-    self.new_from_filename(file_format)
+    song = self.new_from_filename(file_format)
     song.save
   end
 
