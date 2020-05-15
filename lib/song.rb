@@ -31,8 +31,7 @@ class Song
     
   def self.new_from_filename(file_format)
     new_song = self.new_by_name(name)
-    song = Blank Space
-    artist_name = Taylor Swift
+    artist_name - song_name .mp3.split
     song
   end
   #return song instance
