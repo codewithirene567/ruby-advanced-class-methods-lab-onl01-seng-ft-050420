@@ -31,7 +31,7 @@ class Song
     
   def self.new_from_filename(file_format)
     new_song = self.new_by_name(name)
-    artist_name - song_name .mp3.split
+    file_format.split("-")
     song
   end
   #return song instance
