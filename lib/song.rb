@@ -32,9 +32,10 @@ class Song
   def self.new_from_filename(file_format)
     names_array = file_format.split(" - ")
     song_name = names_array[1] #create a new variable that holds the song name
-    artist_name = names_array[0] #create a new variable that holds the aritst name
+    banana = names_array[0] #create a new variable that holds the aritst name
     new_song = self.new_by_name(song_name)
-    new_song.artist_name = name 
+    new_song.artist_name = banana
+    #new_by_name => song, new_song = new_by_name, new_song = song
     song
   end
   #return song instance
